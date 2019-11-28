@@ -10,3 +10,11 @@
 			args[2] is 1
 			args[3] is 1
 
+
+Build a golang project
+
+1, mkdir dir
+2, programming
+3, export GOPATH=path
+4, source ~/.bashrc
+5, go build xx
