@@ -1,0 +1,20 @@
+1, learn how to build a go project?
+2. how to get args?
+		the param of 'main' is os.Args (need import "os")
+		for example:
+			./calc add 1 1
+
+			len(args) is 4 (./calc is the first param)
+			args[0] is ./calc
+			args[1] is add
+			args[2] is 1
+			args[3] is 1
+
+
+Build a golang project
+
+1, mkdir dir
+2, programming
+3, export GOPATH=path
+4, source ~/.bashrc
+5, go build xx
